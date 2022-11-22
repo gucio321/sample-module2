@@ -1,9 +1,8 @@
 package pkg2
 
-import (
-	pkg1 "github.com/gucio321/sample-module2/sample-module1"
-)
+// #include "sample-module1/file.c"
+import "C"
 
 func Bar() {
-	pkg1.Foo()
+	C.main()
 }
