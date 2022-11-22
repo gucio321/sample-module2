@@ -1,7 +1,7 @@
 package pkg2
 
 import (
-	pkg1 "github.com/gucio321/pkg2/sample-module1"
+	pkg1 "github.com/gucio321/sample-module2/sample-module1"
 )
 
 func Bar() {
